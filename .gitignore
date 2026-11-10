@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Local data (Chroma index, crawled content)
+data/
+data/chroma/
+
+# Virtual environments
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Screenshots and generated source images (large, regenerable)
+*.png
+
+# Design tooling (mocks, captures, local config)
+.impeccable/

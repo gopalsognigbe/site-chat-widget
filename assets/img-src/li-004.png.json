@@ -1,0 +1,10 @@
+{
+  "generator": "kie.ai gpt-image-2",
+  "model": "gpt-image-2-text-to-image",
+  "taskId": "d5ff95935397c9b035c652c02e2a35c0",
+  "aspect": "3:2",
+  "resolution": "1K",
+  "refs": [],
+  "credits": 6.0,
+  "prompt": "Interior of a second-floor apartment in a Plateau-Mont-Royal triplex, Montréal: high ceilings, original hardwood floors, tall windows onto a front balcony and the trees of the street, empty unfurnished rooms, soft daylight.\n\nEditorial architectural photography for a high-end real estate agency in Montréal, Québec. Natural light, medium-format look, refined muted palette, true-to-life colours, straight verticals, no people, no text, no logos, no watermark."
+}

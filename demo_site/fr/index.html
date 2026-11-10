@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fleuve Immobilier – Agence immobilière à Montréal (Québec)</title>
+  <meta name="description" content="Fleuve Immobilier (fictive) vous accompagne pour acheter, louer, vendre et gérer une propriété à Montréal (Québec, Canada). Service bilingue français / anglais.">
+  <link rel="alternate" hreflang="en" href="/index.html">
+  <link rel="alternate" hreflang="fr" href="/fr/index.html">
+  <link rel="preload" href="../fonts/libre-caslon-display-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fonts/hanken-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="has-hero">
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-current="page">Fleuve <span>Immobilier</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span class="nav-toggle-bars" aria-hidden="true"></span>Menu</button>
+      <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+        <a href="buy.html">Acheter</a>
+        <a href="rent.html">Louer</a>
+        <a href="sell.html">Vendre</a>
+        <a href="listings.html">Propriétés</a>
+        <a href="neighborhoods.html">Quartiers</a>
+        <a href="fees.html">Tarifs</a>
+        <a href="faq.html">FAQ</a>
+        <a href="about.html">À propos</a>
+        <a class="lang-switch" href="../index.html" hreflang="en" lang="en" aria-label="English version">EN</a>
+        <a class="nav-cta" href="contact.html">Réserver une visite</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <figure class="hero-media"><img src="../img/hero.webp" srcset="../img/hero-960.webp 960w, ../img/hero.webp 1344w" sizes="100vw" width="1344" height="768" alt="Un salon lumineux au crépuscule, grandes fenêtres sur les tours de Montréal (image d'illustration)" fetchpriority="high" data-parallax></figure>
+      <div class="container hero-inner">
+        <h1 id="hero-title" data-reveal-lines><span class="reveal-line"><span>Trouvez votre place</span></span> <span class="reveal-line"><span>à Montréal.</span></span></h1>
+        <p class="hero-lede">Une agence bilingue sur l'île depuis 2014. Achat, location et vente de condos, de plex et de maisons, avec chaque document vérifié avant que vous vous engagiez.</p>
+        <form class="search" action="listings.html" method="get" role="search" aria-label="Rechercher une propriété">
+          <fieldset>
+            <legend>Je veux</legend>
+            <label class="seg"><input type="radio" name="type" value="sale" checked><span>Acheter</span></label>
+            <label class="seg"><input type="radio" name="type" value="rent"><span>Louer</span></label>
+          </fieldset>
+          <label class="field"><span>Quartier</span>
+            <select name="area">
+              <option value="">Les cinq secteurs</option>
+              <option value="plateau">Le Plateau-Mont-Royal</option>
+              <option value="griffintown">Griffintown</option>
+              <option value="verdun">Verdun</option>
+              <option value="ndg">Notre-Dame-de-Grâce</option>
+              <option value="old-montreal">Vieux-Montréal</option>
+            </select>
+          </label>
+          <label class="field"><span>Budget</span>
+            <select name="max" data-budget>
+              <option value="">Tous les budgets</option>
+              <option value="800000" data-type="sale">Jusqu'à 800 000 $</option>
+              <option value="1200000" data-type="sale">Jusqu'à 1 200 000 $</option>
+              <option value="1500" data-type="rent">Jusqu'à 1 500 $ / mois</option>
+              <option value="2500" data-type="rent">Jusqu'à 2 500 $ / mois</option>
+            </select>
+          </label>
+          <button type="submit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg>Rechercher</button>
+        </form>
+        <p class="hero-foot"><span>8 propriétés disponibles maintenant</span><a href="contact.html">Réserver une visite</a><a href="sell.html">Demander une évaluation gratuite</a></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Propriétés en vedette</h2>
+          <a class="link-arrow" href="listings.html">Voir toutes les propriétés</a>
+        </div>
+        <p class="muted">Une sélection de notre portefeuille actuel. Toutes les propriétés sont fictives.</p>
+        <div class="grid grid-3">
+          <article class="card listing" data-type="sale" data-area="ndg" data-price="1149000">
+            <figure class="listing-visual"><img src="../img/li-001.webp" srcset="../img/li-001-640.webp 640w, ../img/li-001.webp 1200w" sizes="(max-width: 760px) 100vw, 40vw" width="1200" height="800" loading="lazy" decoding="async" alt="Cottage jumelé en brique avec jardin avant (image d'illustration)"><span class="badge">À vendre</span></figure>
+            <div class="listing-body">
+              <h3>Cottage jumelé avec jardin</h3>
+              <p class="listing-meta"><span class="listing-area">NDG</span><span class="listing-id">LI-001</span></p>
+              <p class="price">1 149 000 $</p>
+              <ul class="facts"><li>4 chambres</li><li>1 850 pi²</li><li>Jardin</li></ul>
+              <p>Cottage en brique sur une rue arborée, sous-sol aménagé, cour arrière et stationnement privé. Près d'une station de métro et des écoles.</p>
+              <a href="listings.html#LI-001">Voir la fiche</a>
+            </div>
+          </article>
+          <article class="card listing" data-type="rent" data-area="griffintown" data-price="2650">
+            <figure class="listing-visual"><img src="../img/li-002.webp" srcset="../img/li-002-640.webp 640w, ../img/li-002.webp 1200w" sizes="(max-width: 760px) 100vw, 40vw" width="1200" height="800" loading="lazy" decoding="async" alt="Salon meublé en coin au-dessus du canal de Lachine (image d'illustration)"><span class="badge">À louer</span></figure>
+            <div class="listing-body">
+              <h3>Condo 4½ meublé (2 chambres)</h3>
+              <p class="listing-meta"><span class="listing-area">Griffintown</span><span class="listing-id">LI-002</span></p>
+              <p class="price">2 650 $ / mois</p>
+              <ul class="facts"><li>2 chambres</li><li>900 pi²</li><li>Meublé</li></ul>
+              <p>Unité de coin lumineuse près du canal de Lachine, avec salle d'entraînement et stationnement intérieur. Idéal pour les professionnels qui s'installent à Montréal.</p>
+              <a href="listings.html#LI-002">Voir la fiche</a>
+            </div>
+          </article>
+          <article class="card listing" data-type="sale" data-area="verdun" data-price="789000">
+            <figure class="listing-visual"><img src="../img/li-003.webp" srcset="../img/li-003-640.webp 640w, ../img/li-003.webp 1200w" sizes="(max-width: 760px) 100vw, 40vw" width="1200" height="800" loading="lazy" decoding="async" alt="Maison de ville rénovée en brique avec terrasse en bois (image d'illustration)"><span class="badge">À vendre</span></figure>
+            <div class="listing-body">
+              <h3>Maison de ville rénovée, 3 chambres</h3>
+              <p class="listing-meta"><span class="listing-area">Verdun</span><span class="listing-id">LI-003</span></p>
+              <p class="price">789 000 $</p>
+              <ul class="facts"><li>3 chambres</li><li>1 450 pi²</li><li>Terrasse</li></ul>
+              <p>À quelques pas du fleuve et de la rue Wellington, cuisine et salles de bain neuves, terrasse privée. Une belle maison familiale.</p>
+              <a href="listings.html#LI-003">Voir la fiche</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container statement">
+        <div>
+          <h2>L'immobilier à Montréal, expliqué clairement.</h2>
+          <p class="lead">Depuis 2014, notre équipe a accompagné plus de 900 clients dans leurs projets immobiliers sur l'île de Montréal. Que vous arriviez au Canada, que vous soyez muté pour le travail ou que vous investissiez dans un plex, nous expliquons chaque étape simplement, en français ou en anglais.</p>
+          <p>Nous travaillons surtout dans le Plateau-Mont-Royal, Griffintown, Verdun, Notre-Dame-de-Grâce (NDG) et le Vieux-Montréal. Les documents de chaque propriété que nous affichons sont vérifiés, et chaque achat est signé devant notaire, comme c'est l'usage au Québec.</p>
+        </div>
+        <ul class="services" aria-label="Nos services">
+          <li><strong>Achat</strong><span>Recherche, visites, promesse d'achat, inspection et coordination avec le notaire jusqu'à la remise des clés.</span></li>
+          <li><strong>Location</strong><span>Appartements, condos et bureaux meublés ou non meublés, avec un bail sur le formulaire officiel du Québec et un état des lieux à l'entrée.</span></li>
+          <li><strong>Vente</strong><span>Évaluation gratuite, photos professionnelles et visite virtuelle 3D, vérification des acheteurs et accompagnement jusqu'à la signature de l'acte.</span></li>
+          <li><strong>Gestion locative</strong><span>Perception des loyers, entretien et relations avec les locataires pour les propriétaires, y compris ceux qui vivent hors du Québec.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="container band" aria-label="Notre bureau">
+      <figure><img src="../img/office.webp" srcset="../img/office-640.webp 640w, ../img/office.webp 1200w" sizes="(max-width: 760px) 100vw, 1240px" width="1200" height="800" loading="lazy" decoding="async" alt="Accueil du bureau de l'agence dans un immeuble de pierre rénové (image d'illustration)" data-parallax-inner>
+      <figcaption>Notre bureau, 450, rue des Exemples, bureau 300. Visites possibles du lundi au samedi.</figcaption></figure>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Cinq quartiers que nous connaissons par cœur</h2>
+          <a class="link-arrow" href="neighborhoods.html">Comparer les quartiers</a>
+        </div>
+        <div class="hoods">
+          <a class="hood" href="neighborhoods.html#plateau"><img src="../img/n-plateau.webp" width="900" height="1137" loading="lazy" alt="" data-parallax-inner><span class="hood-text"><strong>Le Plateau-Mont-Royal</strong><small>Triplex à partir de 1 200 000 $</small></span></a>
+          <a class="hood" href="neighborhoods.html#griffintown"><img src="../img/n-griffintown.webp" width="900" height="1137" loading="lazy" alt="" data-parallax-inner><span class="hood-text"><strong>Griffintown</strong><small>Condos 1 chambre à partir de 450 000 $</small></span></a>
+          <a class="hood" href="neighborhoods.html#verdun"><img src="../img/n-verdun.webp" width="900" height="1137" loading="lazy" alt="" data-parallax-inner><span class="hood-text"><strong>Verdun</strong><small>Maisons de ville à partir de 700 000 $</small></span></a>
+          <a class="hood" href="neighborhoods.html#ndg"><img src="../img/n-ndg.webp" width="900" height="1137" loading="lazy" alt="" data-parallax-inner><span class="hood-text"><strong>Notre-Dame-de-Grâce</strong><small>Cottages à partir de 1 000 000 $</small></span></a>
+          <a class="hood" href="neighborhoods.html#old-montreal"><img src="../img/n-oldmtl.webp" width="900" height="1137" loading="lazy" alt="" data-parallax-inner><span class="hood-text"><strong>Vieux-Montréal</strong><small>Condos à partir de 500 000 $</small></span></a>
+        </div>
+        <p class="muted" style="margin-top:1.25rem">Prix indicatifs, estimations fictives pour ce site de démonstration.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Pour aller plus loin</h2>
+        <ul class="guide-index">
+          <li><a href="buy.html"><h3>Acheter une propriété</h3><p>Les étapes, les documents, les délais et le rôle du notaire au Québec.</p><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a></li>
+          <li><a href="rent.html"><h3>Louer un logement</h3><p>Comment fonctionne la location au Québec, ce qu'on paie avant d'emménager, les documents demandés.</p><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a></li>
+          <li><a href="sell.html"><h3>Vendre votre propriété</h3><p>Évaluation, mise en marché, vérification des acheteurs et notre commission.</p><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a></li>
+          <li><a href="fees.html"><h3>Nos tarifs</h3><p>Des tarifs transparents pour l'achat, la vente, la location et la gestion locative.</p><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a></li>
+          <li><a href="faq.html"><h3>Des questions ?</h3><p>Visites, paiements, acheteurs étrangers, taxe de bienvenue, baux et plus encore.</p><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a></li>
+          <li><a href="about.html"><h3>Notre agence</h3><p>Qui nous sommes, ce en quoi nous croyons et où nous travaillons.</p><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="closing on-night">
+      <div class="container closing-inner">
+        <h2>Visitez sur place, en français ou en anglais.</h2>
+        <div>
+          <p>Dites-nous ce que vous cherchez et quand vous êtes disponible. Nous répondons aux courriels en un jour ouvrable.</p>
+          <div class="btn-row"><a class="btn btn-primary" href="contact.html">Réserver une visite</a><a class="btn btn-ghost" href="tel:+15145550142">+1 514-555-0142</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Fleuve Immobilier</strong>
+        <p>Agence immobilière bilingue à Montréal (Québec). Achat, vente, location et gestion locative.</p>
+      </div>
+      <div>
+        <strong>Contact</strong>
+        <p>450, rue des Exemples, bureau 300, Montréal (Québec)<br>+1 514-555-0142<br><a href="mailto:contact@example.com">contact@example.com</a><br>Lun–ven 9 h–18 h, sam 10 h–14 h</p>
+      </div>
+      <div>
+        <strong>Pages</strong>
+        <ul class="footer-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="buy.html">Acheter</a></li>
+          <li><a href="rent.html">Louer</a></li>
+          <li><a href="sell.html">Vendre</a></li>
+          <li><a href="listings.html">Propriétés</a></li>
+          <li><a href="neighborhoods.html">Quartiers</a></li>
+          <li><a href="fees.html">Tarifs</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fiction-note">Entreprise fictive – données de démonstration uniquement</p>
+  </footer>
+  <script src="../vendor/lenis.min.js" defer></script>
+  <script src="../vendor/gsap.min.js" defer></script>
+  <script src="../vendor/ScrollTrigger.min.js" defer></script>
+  <script src="../site.js" defer></script>
+  <script src="../motion.js" defer></script>
+  <script src="http://localhost:8000/widget/widget.js" data-api="http://localhost:8000" data-title="Fleuve Immobilier" data-color="#8b6d47" data-theme="light" data-font="Hanken Grotesk" data-lang="auto" data-suggestions="What is your commission when I sell?|Do I need a security deposit to rent?|Can foreigners buy property in Canada?" data-suggestions-fr="Quelle est votre commission si je vends ?|Faut-il un dépôt de garantie pour louer ?|Un étranger peut-il acheter au Canada ?" defer></script>
+</body>
+</html>

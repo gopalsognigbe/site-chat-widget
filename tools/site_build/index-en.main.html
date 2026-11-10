@@ -1,0 +1,144 @@
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <figure class="hero-media"><img src="img/hero.webp" srcset="img/hero-960.webp 960w, img/hero.webp 1344w" sizes="100vw" width="1344" height="768" alt="A bright living room at dusk with tall windows onto the Montréal skyline (illustrative image)" fetchpriority="high" data-parallax></figure>
+      <div class="container hero-inner">
+        <h1 id="hero-title" data-reveal-lines><span class="reveal-line"><span>Find your place</span></span> <span class="reveal-line"><span>in Montréal.</span></span></h1>
+        <p class="hero-lede">A bilingual agency on the island since 2014. Buying, renting and selling condos, plexes and houses, with every document checked before you commit.</p>
+        <form class="search" action="listings.html" method="get" role="search" aria-label="Search listings">
+          <fieldset>
+            <legend>I want to</legend>
+            <label class="seg"><input type="radio" name="type" value="sale" checked><span>Buy</span></label>
+            <label class="seg"><input type="radio" name="type" value="rent"><span>Rent</span></label>
+          </fieldset>
+          <label class="field"><span>Neighborhood</span>
+            <select name="area">
+              <option value="">All five areas</option>
+              <option value="plateau">Le Plateau-Mont-Royal</option>
+              <option value="griffintown">Griffintown</option>
+              <option value="verdun">Verdun</option>
+              <option value="ndg">Notre-Dame-de-Grâce</option>
+              <option value="old-montreal">Old Montréal</option>
+            </select>
+          </label>
+          <label class="field"><span>Budget</span>
+            <select name="max" data-budget>
+              <option value="">Any budget</option>
+              <option value="800000" data-type="sale">Up to $800,000</option>
+              <option value="1200000" data-type="sale">Up to $1,200,000</option>
+              <option value="1500" data-type="rent">Up to $1,500 / month</option>
+              <option value="2500" data-type="rent">Up to $2,500 / month</option>
+            </select>
+          </label>
+          <button type="submit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg>Search listings</button>
+        </form>
+        <p class="hero-foot"><span>8 properties available now</span><a href="contact.html">Book a visit</a><a href="sell.html">Ask for a free valuation</a></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured listings</h2>
+          <a class="link-arrow" href="listings.html">See all listings</a>
+        </div>
+        <p class="muted">A selection from our current portfolio. All listings are fictional.</p>
+        <div class="grid grid-3">
+          <article class="card listing">
+            <div class="listing-visual"><span class="badge">For sale</span><span>NDG</span></div>
+            <div class="listing-body">
+              <span class="listing-id">LI-001</span>
+              <h3>Semi-detached cottage with garden</h3>
+              <p class="price">$1,149,000</p>
+              <ul class="facts"><li>4 bedrooms</li><li>1,850 sq ft</li><li>Garden</li></ul>
+              <p>Brick cottage on a tree-lined street, finished basement, backyard and private parking. Close to a metro station and schools.</p>
+              <a href="listings.html#LI-001">View details</a>
+            </div>
+          </article>
+          <article class="card listing">
+            <div class="listing-visual v-sea"><span class="badge">For rent</span><span>Griffintown</span></div>
+            <div class="listing-body">
+              <span class="listing-id">LI-002</span>
+              <h3>Furnished 4½ condo (2 bedrooms)</h3>
+              <p class="price">$2,650 / month</p>
+              <ul class="facts"><li>2 bedrooms</li><li>900 sq ft</li><li>Furnished</li></ul>
+              <p>Bright corner unit near the Lachine Canal, with gym and indoor parking. Ideal for professionals relocating to Montréal.</p>
+              <a href="listings.html#LI-002">View details</a>
+            </div>
+          </article>
+          <article class="card listing">
+            <div class="listing-visual v-sand"><span class="badge">For sale</span><span>Verdun</span></div>
+            <div class="listing-body">
+              <span class="listing-id">LI-003</span>
+              <h3>Renovated 3-bedroom townhouse</h3>
+              <p class="price">$789,000</p>
+              <ul class="facts"><li>3 bedrooms</li><li>1,450 sq ft</li><li>Terrace</li></ul>
+              <p>A short walk from the river and Wellington Street, new kitchen and bathrooms, private terrace. A great family home.</p>
+              <a href="listings.html#LI-003">View details</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container statement">
+        <div>
+          <h2>Real estate in Montréal, explained clearly.</h2>
+          <p class="lead">Since 2014, our team has guided more than 900 clients through property projects on the island of Montréal. Whether you are moving to Canada, relocating for work, or investing in a plex, we explain each step in plain English or French.</p>
+          <p>We work mainly in Le Plateau-Mont-Royal, Griffintown, Verdun, Notre-Dame-de-Grâce (NDG) and Old Montréal. Every property we list has had its documents reviewed, and every purchase is completed in front of a notary, as is standard practice in Québec.</p>
+        </div>
+        <ul class="services" aria-label="Our services">
+          <li><strong>Buying</strong><span>Search, visits, promise to purchase, inspection and coordination with the notary until you get your keys.</span></li>
+          <li><strong>Renting</strong><span>Furnished and unfurnished apartments, condos and offices, with a lease on the official Québec form and a move-in inventory.</span></li>
+          <li><strong>Selling</strong><span>Free valuation, professional photos and 3D tour, buyer screening and support until the deed is signed.</span></li>
+          <li><strong>Property management</strong><span>Rent collection, maintenance and tenant relations for owners, including owners living outside Québec.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="container band" aria-label="Our office">
+      <figure><img src="img/office.webp" srcset="img/office-640.webp 640w, img/office.webp 1200w" sizes="(max-width: 760px) 100vw, 1240px" width="1200" height="800" loading="lazy" decoding="async" alt="Reception of the agency office in a renovated stone building (illustrative image)" data-parallax-inner>
+      <figcaption>Our office, 450, rue des Exemples, suite 300. Visits are possible Monday to Saturday.</figcaption></figure>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Five neighborhoods we know by heart</h2>
+          <a class="link-arrow" href="neighborhoods.html">Compare neighborhoods</a>
+        </div>
+        <div class="hoods">
+          <a class="hood" href="neighborhoods.html#plateau"><img src="img/n-plateau.webp" width="900" height="1137" loading="lazy" alt="" data-parallax-inner><span class="hood-text"><strong>Le Plateau-Mont-Royal</strong><small>Triplexes from $1,200,000</small></span></a>
+          <a class="hood" href="neighborhoods.html#griffintown"><img src="img/n-griffintown.webp" width="900" height="1137" loading="lazy" alt="" data-parallax-inner><span class="hood-text"><strong>Griffintown</strong><small>1-bedroom condos from $450,000</small></span></a>
+          <a class="hood" href="neighborhoods.html#verdun"><img src="img/n-verdun.webp" width="900" height="1137" loading="lazy" alt="" data-parallax-inner><span class="hood-text"><strong>Verdun</strong><small>Townhouses from $700,000</small></span></a>
+          <a class="hood" href="neighborhoods.html#ndg"><img src="img/n-ndg.webp" width="900" height="1137" loading="lazy" alt="" data-parallax-inner><span class="hood-text"><strong>Notre-Dame-de-Grâce</strong><small>Cottages from $1,000,000</small></span></a>
+          <a class="hood" href="neighborhoods.html#old-montreal"><img src="img/n-oldmtl.webp" width="900" height="1137" loading="lazy" alt="" data-parallax-inner><span class="hood-text"><strong>Old Montréal</strong><small>Condos from $500,000</small></span></a>
+        </div>
+        <p class="muted" style="margin-top:1.25rem">Indicative prices, fictional estimates for this demo site.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Where to go next</h2>
+        <ul class="guide-index">
+          <li><a href="buy.html"><h3>Buying a property</h3><p>Step-by-step process, documents, timeline and the notary's role in Québec.</p><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a></li>
+          <li><a href="rent.html"><h3>Renting a home</h3><p>How renting works in Québec, what you pay before moving in, documents for tenants.</p><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a></li>
+          <li><a href="sell.html"><h3>Selling your property</h3><p>Valuation, marketing, buyer checks and our commission.</p><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a></li>
+          <li><a href="fees.html"><h3>Our fees</h3><p>Transparent fees for buying, selling, renting and property management.</p><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a></li>
+          <li><a href="faq.html"><h3>Questions?</h3><p>Visits, payments, foreign buyers, welcome tax, leases and more.</p><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a></li>
+          <li><a href="about.html"><h3>About the agency</h3><p>Who we are, what we believe in, and where we work.</p><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="closing on-night">
+      <div class="container closing-inner">
+        <h2>Visit in person, in English or French.</h2>
+        <div>
+          <p>Tell us what you are looking for and when you are free. We answer emails within one working day.</p>
+          <div class="btn-row"><a class="btn btn-primary" href="contact.html">Book a visit</a><a class="btn btn-ghost" href="tel:+15145550142">+1 514-555-0142</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
